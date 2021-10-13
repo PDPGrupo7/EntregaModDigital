@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--ESTE ES EL ESTILO CSS DE BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <!--ESTE ES EL ESTILO CSS DE BOOTSTRAP ICONS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <!--ESTE ES EL ESTILO CSS PROPIO-->
+        <link rel="stylesheet" href="style.css" />
+        <!--CAMBIEN EL TÍTULO QUE SIGUE-->
+        <title>Energía Limpia y No Contaminante</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row h-100">
+                    <div class="col-12 text-center my-auto">
+                        <h1>ENERGÍA LIMPIA Y NO CONTAMINANTE</h1>
+                        <h2>Por una energía sostenible, asequible y moderna para todas las personas.</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main role="main" class="pb-5">
+            <!--ESTE ES EL ARTÍCULO CON VIDEO DE YOUTUBE-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7 order-md-last">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/imwsw6odo3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                ></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4 order-md-first">
+                            <h3></i> ODS 7: Energía asequible y no contaminante</h3>
+                            <p>
+                                "La energía sostenible es una oportunidad que transforma vidas, economías y, en consecuencia, el planeta. Casi todos los grandes desafíos y oportunidades a los que se enfrenta el mundo en la actualidad tienen como eje central la energía. Una de cada cinco personas todavía no tiene acceso a la electricidad moderna." (Ineco, 2019 “ODS 7: Energía asequible y no contaminante”).
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO FIGURATIVO (JPG, PNG o GIF)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7">
+                            <img loading="lazy" class="img-fluid bg-light d-md-none" src="img/relacion-1x1.png" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-md-block d-lg-none" src="img/relacion-4x3.png" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-lg-block" src="img/relacion-16x9.png" alt="describa la imagen" />
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4">
+                            <h3><i class="bi bi-emoji-sunglasses"></i> Este subtítulo tiene que referir a un gráfico figurativo</h3>
+                            <p>
+                                Su gráfico figurativo debe presentarse como imagen JPG, PNG o GIF. Tiene que pesar menos de 200 kb. Como pueden ver en el código, en estricto rigor, no se trata de una única imagen, sino tres. Es una, de
+                                tres, la que se muestra según el tamaño de pantalla del dispositivo: pequeña, mediana o grande.
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                En la pantalla pequeña la imagen es cuadrada. En la pantalla mediana es rectangular y apaisada, con lados en <a href="https://es.wikipedia.org/wiki/Relaci%C3%B3n_de_aspecto">relación de aspecto</a> 4:3. En la
+                                pantalla grande la relación es 16:9
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO MIXTO (SVG)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7 order-md-last">
+                            <svg enable-background="new 0 0 665 375" version="1.1" viewBox="0 0 665 375" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <image transform="matrix(.5 0 0 .5 0 0)" width="1330" height="750" overflow="visible" xlink:href="img/relacion-16x9.png"></image>
+                                <circle class="st0" cx="332.5" cy="187.5" r="125" />
+                            </svg>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4 order-md-first">
+                            <h3><i class="bi bi-emoji-sunglasses"></i> ¿CUÁLES SON LAS METAS PARA ALCANZAR UNA ENERGÍA LIMPIA Y ASEQUIBLE?</h3>
+                            <p>
+                                El siguiente gráfico muestra los pasos concretos propuestos por la ONU (2021) para llegar a una energía no contaminante a la que todas las personas puedan acceder. Esto se relaciona con la mejora de infraestructuras de energía renovable, el aumento de la cantidad de estas a lo largo del planeta y trabajar para que las leyes de cada país velen por el acceso universal a energías renovables. Lo sabemos… suena a que es mucho. ¡Pero juntos podemos! ¿O no?
+                                <a href="https://developer.mozilla.org/es/docs/Web/SVG">SVG es un estándar Web abierto basado en texto</a>.
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                ONU. (n.d.). Energía. Desarrollo Sostenible. Sacado de:  https://www.un.org/sustainabledevelopment/es/energy/ 
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO NO FIGURATIVO (CHARTS.JS)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7">
+                            <canvas id="nuestroGrafico" class="bg-light" width="16" height="9"></canvas>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4">
+                            <h3><i class="bi bi-emoji-sunglasses"></i> ¿Cuántas personas tienen acceso a servicios de electricidad?</h3>
+                            <p>
+                              ¿Imaginas estar horas completas sin una luz encendida? ¡Suena una pesadilla! Este gráfico muestra que para una parte considerable de la población mundial esto no es sólo un mal sueño, es una realidad. Una de cada cinco personas tiene acceso a servicios de electricidad básicos.
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                Ineco. (2019, May 21). ODS 7: Energía asequible y no contaminante [Video]. YouTube. https://www.youtube.com/watch?v=imwsw6odo3A 
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL CIERRE-->
+            <article class="my-5">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-10 mx-auto mb-5 text-center">
+                            <p class="py-3"><i class="bi bi-emoji-sunglasses"></i></p>
+                            <p class="lead pb-5">
+                                ¡Te invitamos a ver la información de este sitio y a ser parte del cambio! Para que más personas y comunidades puedan acceder a una energía limpia, moderna y no contaminante.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <!--ESTOS DEBERÍAN SER TRES VÍNCULOS A MÁS INFORMACIÓN-->
+        <aside class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center py-3">
+                        <h3>MÁS NOTICIAS</h3>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text">Y los nominados son…Hitos en materia de energía renovable de los últimos 10 años.<a href="#" target="_blank">Click para más…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text”>”Vendados”: una radiografía sobre la cruda realidad sin acceso a la electricidad.<a href="#" target="_blank">Click para más…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/relacion-16x9.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text">Guía para enseñar a niñas y niños sobre Energía Limpia a través de actividades artísticas. <a href="#" target="_blank">Click para más…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--ESTE ES EL FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-3 d-flex justify-content-between align-items-center small">
+                        <a href="index.html" class="link-light fw-bold">index.html</a>
+                        <a href="surface.html" class="link-light">surface.html</a>
+                        <a href="#nuestroModal" data-bs-toggle="modal" class="link-light"><i class="bi bi-emoji-sunglasses"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Y ESTO ESTÁ ESCONDIDO, CONTIENE LA PRESENTACIÓN DEL EQUIPO -->
+        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="nuestroModal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sobre nosotras…</h4>
+                        <i class="bi bi-x-circle-fill" data-bs-dismiss="modal" aria-label="Close"></i>
+                    </div>
+                    <div class="modal-body row" id="team"><!--esto queda vacío, por ahora--></div>
+                </div>
+            </div>
+        </div>
+        <!--NO BORRAR ESTA BIBLIOTECA DE JAVASCRIPT-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"
+            integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--ESTE ES EL SCRIPT PARA EL GRÁFICO-->
+        <script>
+            var ctx = document.getElementById("nuestroGrafico");
+            var nuestroGrafico = new Chart(ctx, {
+                type: "line",
+                data: {
+                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    datasets: [
+                        {
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            borderWidth: 1,
+                        },
+                    ],
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                        },
+                    },
+                },
+            });
+        </script>
+        <!--NO BORRAR ESTA BIBLIOTECA DE JAVASCRIPT-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--ESTE ES EL SCRIPT PARA EL MODAL-->
+        <script>
+            // Tienen que editar los elementos dentro de la siguiente variable
+            var integrantes = [
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+                { nombre: "Nombre Apellido", descriptor: "Responsabilidad de integrante", foto: "img/relacion-3x4.png" },
+            ];
+            // No es necesario que editen lo que sigue
+            for (let x = 0; x < integrantes.length; x++) {
+                document.querySelector("#team").innerHTML +=
+                    '<div class="col-md-6 col-xl-3"><div class="card mb-3 shadow-sm"><div class="row no-gutters"><div class="col-md-5"><img src="' +
+                    integrantes[x].foto +
+                    '" class="card-img" alt="describir imagen"></div><div class="col-md-7"><div class="card-body"><h6 class="card-title">' +
+                    integrantes[x].nombre +
+                    '</h6><p class="card-text">' +
+                    integrantes[x].descriptor +
+                    "</p></div></div></div></div></div>";
+            }
+        </script>
+    </body>
+</html> 
