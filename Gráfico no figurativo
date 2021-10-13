@@ -1,0 +1,17 @@
+const data = {
+  labels: [
+    'Blue',
+    'Yellow',
+    
+  ],
+  datasets: [{
+    label: 'Porcentaje de acceso a servicios modernos de electricidad',
+    data: [13, 87],
+    backgroundColor: [
+      'rgb(61, 135, 203)',
+      'rgb(255, 198, 0)',
+      
+    ],
+    hoverOffset: 4
+  }]
+};
